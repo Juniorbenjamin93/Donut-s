@@ -1,0 +1,29 @@
+.menu {
+    text-align: center;
+    font-size: 70px;
+}
+
+body {
+    background-color: pink;
+}
+
+table {
+    width: 100%; /* Faz a tabela ocupar 100% da largura da página */
+    border-collapse: collapse; /* Remove os espaçamentos entre as células */
+}
+
+td {
+    padding: 20px; /* Adiciona espaçamento dentro das células */
+    border: 1px solid #ccc; /* Adiciona bordas às células */
+    background-color: #f9f9f9; /* Cor de fundo para as células */
+    text-align: center; /* Centraliza o conteúdo (texto e imagens) */
+    font-size: 18px; /* Ajusta o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+}
+
+td img {
+    display: block; /* Faz a imagem se comportar como um bloco, forçando-a a ir para a linha de baixo */
+    margin: 10px auto; /* Centraliza a imagem e adiciona espaçamento acima */
+    width: 200px; /* Define a largura da imagem */
+    height: 200px; /* Mantém a proporção da imagem */
+}

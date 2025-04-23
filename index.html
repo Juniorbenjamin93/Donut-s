@@ -1,59 +1,157 @@
-<h1 class="titulo">Mini cakes Donut's</h1>
-<strong class="negrito">Feito por claudia e filha</strong>
-</html> 
-<ul>
-<li class="lista">Donut's</li>
-<li class="lista">Cookies</li>
-<li class="lista">Pão de mel</li>
-</ul>
-<nav> 
-    <ul>
-        <li>
-            <a href="https://lively-daffodil-699123.netlify.app//">cardápio</a><span class="arrow">→</span></a>
-            <a href="https://maeefilhascakes.netlify.app/">contato</a><span class="arrow">→</span></a>
-            <a href="https://maeefilhascakes.netlify.app//">localização</a><span class="arrow">→</span></a>
-        
-        </li>
-    </ul>
-</nav>
-
-    <p><strong>Essa Deliciosa receitas</strong></p>
-    <p>donuts são uma verdadeira delícia que conquistam paladares ao redor do mundo. Originários dos Estados Unidos, esses doces são conhecidos por sua massa fofinha e suas coberturas variadas, que vão desde o clássico açúcar até o irresistível chocolate.
-
-        A versatilidade dos donuts é um dos seus maiores atrativos. Eles podem ser recheados com ganache, brigadeiro, creme de confeiteiro, doce de leite, entre outros recheios deliciosos1. Além disso, você pode optar por prepará-los fritos ou assados, garantindo que fiquem sempre saborosos</p>
-        <div class="image-container">
-            <a href="cardapio.html">
-                <img src="imagens/don.jpg" alt="Imagem de Donut" width="150" height="100" />
-            </a>
-            <a href="cardapio.html">
-                <img src="imagens/donuts.jpg" alt="Imagem de Donuts" width="150" height="100" />
-            </a>
-        </div>
-        
-      
-    <h2>Donuts, também conhecidos como rosquinhas em português brasileiro, são uma espécie de doce frito ou assado em forma de anel ou bola.
-
-        
-        
-        RECEITA DE DONUTS ORIGINAL
-        Ingredientes da Massa:
-        250 ml de água (aproximadamente)
-        500 gramas de farinha de trigo
-        40 gramas de açúcar
-        40 gramas de margarina
-        10 gramas de sal
-        50 gramas de ovo
-        15 gramas de fermento seco ou 30 gramas de fermento fresco
-        
-        Modo de Preparo:
-        Reserve a água e misture o restante dos ingredientes, tomando cuidado para que o fermento não entre em contato direto com o sal, pois pode anular a ação do fermento.</h2>
-</body><!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini Cakes Donut's - Claudia & Filha</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff7f3;
+      color: #333;
+    }
+
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .titulo {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .negrito {
+      font-size: 18px;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background-color: #ffe3e0;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #d6336c;
+      font-weight: bold;
+    }
+
+    .arrow {
+      margin-left: 5px;
+      color: #999;
+    }
+
+    .lista-produtos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .lista-produtos li {
+      background-color: #ffe3e0;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    .descricao {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: justify;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .image-container img {
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ff69b4;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <header>
+    <h1 class="titulo">Mini Cakes Donut's</h1>
+    <strong class="negrito">Feito com amor por Claudia e Filha 💖</strong>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="https://lively-daffodil-699123.netlify.app/" target="_blank">Cardápio <span class="arrow">→</span></a></li>
+      <li><a href="https://donutfeitoporclaudiaefilha.netlify.app/contato.html" target="_blank">Contato <span class="arrow">→</span></a></li>
+      <li><a href="https://donutfeitoporclaudiaefilha.netlify.app/contato.html" target="_blank">Localização <span class="arrow">→</span></a></li>
+    </ul>
+  </nav>
+
+  <ul class="lista-produtos">
+    <li>Donut's</li>
+    <li>Cookies</li>
+    <li>Pão de mel</li>
+  </ul>
+
+  <section class="descricao">
+    <p><strong>Essas deliciosas receitas</strong> são feitas com carinho e dedicação para conquistar seu paladar.</p>
+    <p>Os donuts são uma verdadeira delícia que conquistam paladares ao redor do mundo. Com massa fofinha e coberturas variadas — do açúcar ao irresistível chocolate — eles são o toque doce perfeito para qualquer momento.</p>
+    <p>Você pode encontrar versões com recheios de ganache, brigadeiro, creme de confeiteiro e doce de leite, feitos tanto fritos quanto assados. Temos também cookies crocantes e pão de mel macio, tudo feito artesanalmente.</p>
+
+    <div class="image-container">
+      <a href="cardapio.html"><img src="imagens/don.jpg" alt="Donut simples" width="150" height="100"></a>
+      <a href="cardapio.html"><img src="imagens/donuts.jpg" alt="Donuts variados" width="150" height="100"></a>
+      <a href="cardapio.html"><img src="mel doce.jpg" alt="Donut simples" width="150" height="100"></a>
+      <a href="cardapio.html"><img src="mel pres.jpg" alt="Donuts variados" width="150" height="100"></a>
+    </div>
+
+    <h2>🍩 Receita Original de Donuts</h2>
+    <p><strong>Ingredientes da Massa:</strong></p>
+    <ul>
+      <li>250 ml de água</li>
+      <li>500 g de farinha de trigo</li>
+      <li>40 g de açúcar</li>
+      <li>40 g de margarina</li>
+      <li>10 g de sal</li>
+      <li>50 g de ovo</li>
+      <li>15 g de fermento seco (ou 30 g fresco)</li>
+    </ul>
+    <p><strong>Modo de Preparo:</strong> Reserve a água e misture os demais ingredientes, evitando contato direto entre o sal e o fermento. Modele, deixe crescer e frite ou asse!</p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Desenvolvido por Benjamin Ribeiro Soares Junior</p>
+  </footer>
+
+</body>
+</html>
